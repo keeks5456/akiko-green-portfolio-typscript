@@ -10,8 +10,19 @@ function getFavNum() {
 }
 var names = ["alice", "greg", "jane"];
 names.forEach(function (s) {
-    console.log(s.toLocaleUpperCase());
+    // console.log(s.toLocaleUpperCase())
 });
 names.forEach(function (name) {
-    console.log(name.toUpperCase());
+    // console.log(name.toUpperCase())
 });
+function printName(obj) {
+    // console.log(obj.first + obj.last);
+}
+printName({ first: "greg" });
+printName({ first: "greg", last: "bobo" });
+//union type
+function printId(id) {
+    console.log("Your id is ".concat(id));
+}
+printId(292);
+printId("sadad/sdna");
