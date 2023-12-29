@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contact = () => {
+const Services = () => {
   return <div>About</div>;
 };
-export default Contact;
+export default Services;
