@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-// import Button from "./Button";
+import Button from "./Button";
 
 const Logo = () => {
   const [width, setWidth] = useState(0);
@@ -33,9 +33,9 @@ const Logo = () => {
     <>
       <Link href="/" style={{ display: showButton ? "none" : "block" }}>
         <Image
-          src="/images/logo.png"
+          src="/images/flower.png"
           alt="Logo"
-          width={width < 1024 ? "150" : "250"}
+          width={width < 1024 ? "150" : "100"}
           height={width < 1024 ? "45" : "74"}
           className="relative"
         />
@@ -44,3 +44,5 @@ const Logo = () => {
     </>
   );
 };
+
+export default Logo;
