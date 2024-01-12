@@ -15,6 +15,10 @@ const config: Config = {
        'background': '#BF932A', // your desired color
        'text': 'white', // your desired color
      },
+     boxShadow: {
+       lightGold: '12px 7px 0px 3px rgba(236,220,171,1)',
+   
+     },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
