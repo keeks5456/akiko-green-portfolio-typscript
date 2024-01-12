@@ -7,7 +7,18 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+     'salsa': ['Salsa', 'cursive']
+   },
     extend: {
+      colors: {
+       'background': '#BF932A', // your desired color
+       'text': 'white', // your desired color
+     },
+     boxShadow: {
+       lightGold: '12px 7px 0px 3px rgba(236,220,171,1)',
+   
+     },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -15,6 +26,27 @@ const config: Config = {
       },
     },
   },
+  variants:[],
   plugins: [],
 }
+
+
+
+
+
+// /** @type {import('tailwindcss').Config} */
+// module.exports = {
+//   theme: {
+//     screens: {
+//       'tablet': '640px',
+//       // => @media (min-width: 640px) { ... }
+
+//       'laptop': '1024px',
+//       // => @media (min-width: 1024px) { ... }
+
+//       'desktop': '1280px',
+//       // => @media (min-width: 1280px) { ... }
+//     },
+//   }
+// }
 export default config

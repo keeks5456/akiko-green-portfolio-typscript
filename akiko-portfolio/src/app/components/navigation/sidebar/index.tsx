@@ -9,7 +9,7 @@ const Sidebar = ({
 }): JSX.Element => {
   return (
     <div
-      className="sidebar-container fixed w-full h-full overflow-hidden justify-center bg-white grid pt-[120px] left-0 z-10"
+      className="sidebar-container fixed w-full h-full overflow-hidden justify-center bg-[#BF932A] grid pt-[120px] left-0 z-10"
       style={{
         opacity: `${isOpen ? "1" : "0"}`,
         top: ` ${isOpen ? "0" : "-100%"}`,
@@ -29,7 +29,7 @@ const Sidebar = ({
           />
         </svg>
       </button>
-      <ul className="sidebar-nav text-center leading-relaxed text-xl">
+      <ul className="sidebar-nav text-center leading-relaxed text-xl text-white">
         <li>
           <Link href="/" onClick={toggle}>
             <p>Home</p>
