@@ -10,10 +10,35 @@ const config: Config = {
     fontFamily: {
      'salsa': ['Salsa', 'cursive']
    },
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      '50%': '50%',
+      '16': '4rem',
+    },
+    opacity: {
+      '0': '0',
+      '20': '0.2',
+      '40': '0.4',
+      '60': '0.6',
+      '80': '0.8',
+      '100': '1',
+    },
+      fontSize: {
+      sm: '0.8rem',
+      base: '1rem',
+      xl: '1.25rem',
+      '2xl': '1.563rem',
+      '3xl': '1.953rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
+    },
     extend: {
       colors: {
-       'background': '#BF932A', // your desired color
-       'text': 'white', // your desired color
+      //  'background': 'rgba(236,220,171,1)', // your desired color
+      'background': 'white',
+       'text': '#BF932A', // your desired color
      },
      boxShadow: {
        lightGold: '12px 7px 0px 3px rgba(236,220,171,1)',
@@ -21,8 +46,8 @@ const config: Config = {
      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'background-image': "url('/images/temp-eyes.jpeg')"
       },
     },
   },

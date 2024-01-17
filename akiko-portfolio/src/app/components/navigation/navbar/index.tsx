@@ -6,10 +6,10 @@ import Button from "./Button";
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className="w-full h-20 bg-[#BF932A] sticky top-0">
-        <div className="container mx-auto px-4 h-full">
-          <div className="flex justify-between items-center h-full">
-            <Logo />
+      <div className="sticky top-0 w-full h-40 nav-banner opacity-60 brightness-50">
+        <div className="container h-full px-4 mx-auto">
+          <div className="flex items-center justify-center h-full">
+            {/* <Logo /> */}
             <button
               type="button"
               className="inline-flex items-center md:hidden"
@@ -27,7 +27,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 />
               </svg>
             </button>
-            <ul className="hidden md:flex gap-x-6 text-white ">
+            <ul className="hidden md:flex gap-x-6 text-[black] text-3xl ">
               <li>
                 <Link href="/">
                   <p>Home</p>
@@ -49,9 +49,9 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 </Link>
               </li>
             </ul>
-            <div className="hidden md:block">
+            {/* <div className="hidden md:block">
               <Button />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
