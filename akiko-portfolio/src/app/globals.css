@@ -10,6 +10,6 @@ body {
 
 @layer components {
   .nav-banner {
-    @apply bg-background-image bg-no-repeat bg-cover bg-center opacity-60;
+    @apply bg-background-image bg-no-repeat bg-cover bg-center;
   }
 }

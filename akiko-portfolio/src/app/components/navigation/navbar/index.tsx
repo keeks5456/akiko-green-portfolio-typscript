@@ -6,7 +6,7 @@ import Button from "./Button";
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className="sticky top-0 w-full h-40 nav-banner opacity-60 brightness-50">
+      <div className="sticky top-0 z-10 w-full h-40 nav-banner">
         <div className="container h-full px-4 mx-auto">
           <div className="flex items-center justify-center h-full">
             {/* <Logo /> */}
@@ -27,7 +27,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 />
               </svg>
             </button>
-            <ul className="hidden md:flex gap-x-6 text-[black] text-3xl ">
+            <ul className="hidden md:flex gap-x-20 text-[white] text-3xl z-50 absolute">
               <li>
                 <Link href="/">
                   <p>Home</p>
