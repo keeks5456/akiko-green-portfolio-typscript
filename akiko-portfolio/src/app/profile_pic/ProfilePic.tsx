@@ -16,11 +16,11 @@ const ProfilePic = () => {
     //Find an image of yourself and change
     <>
       <Image
-        className="absolute right-0 bottom-0 end-0 mr-20 mb-20 rounded-xl shadow-lightGold"
+        className=" justify-center rounded-md mt-10 mr-5"
         src="/images/temp-prof-pic.jpeg"
         alt="Temp Image"
-        width={width < 1024 ? "300" : "400"}
-        height={width < 1024 ? "45" : "400"}
+        width={"500"}
+        height={"1000"}
       />
     </>
   );
