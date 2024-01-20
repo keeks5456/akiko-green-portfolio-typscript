@@ -37,8 +37,8 @@ const config: Config = {
     extend: {
       colors: {
       //  'background': 'rgba(236,220,171,1)', // your desired color
-      'background': 'white',
-       'text': '#BF932A', // your desired color
+      'background': '#F5F5F5',
+       'text': 'black', // your desired color
      },
      boxShadow: {
        lightGold: '12px 7px 0px 3px rgba(236,220,171,1)',
