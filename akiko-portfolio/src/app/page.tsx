@@ -13,7 +13,7 @@ function Home() {
           </h3>
           <p className="paragraph">
             Seasoned Full stack developer seeking opportunities to enhance her
-            skills for Junior developer and Technical Writer roles.
+            skills for Junior developer and aspiring Technical Writer roles.
           </p>
         </div>
         <div className="container flex justify-end static ">

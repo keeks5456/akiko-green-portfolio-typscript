@@ -1,14 +1,14 @@
 import React from "react";
 import Link from "next/link";
-import Logo from "./Logo";
-import Button from "./Button";
+// import Logo from "./Logo";
+// import Button from "./Button";
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className="sticky top-0 z-10 w-full h-40 nav-banner">
-        <div className="container h-full px-4 mx-auto">
-          <div className="flex items-center justify-center h-full">
+      <div className="sticky top-0 z-10 w-full h-20 nav-banner">
+        <div className="container h-full px-2 mx-auto">
+          <div className="flex items-center justify-left h-full">
             {/* <Logo /> */}
             <button
               type="button"
@@ -27,7 +27,11 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 />
               </svg>
             </button>
+            {/* logo ends */}
             <ul className="hidden md:flex gap-x-20 text-[white] text-3xl z-50 absolute">
+              <li>
+                <p>Akiko</p>
+              </li>
               <li>
                 <Link href="/">
                   <p>Home</p>
@@ -36,6 +40,12 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
               <li>
                 <Link href="/about">
                   <p>About</p>
+                </Link>
+              </li>
+              {/* create a blog component */}
+              <li>
+                <Link href="/blogs">
+                  <p>Blogs</p>
                 </Link>
               </li>
               <li>

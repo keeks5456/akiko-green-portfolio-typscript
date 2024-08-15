@@ -10,7 +10,7 @@ export const projectData = [
   {
     //first
     id: 2,
-    // image: IMG1,
+    image: "/images/message_me_temp.jpeg",
     title: "Message Me App",
     github: "https://github.com/keeks5456/message_me_app",
     technologies: "Technologies used: JavaScript, Ruby, HTML",
@@ -18,7 +18,7 @@ export const projectData = [
   {
     //first
     id: 3,
-    // image: IMG1,
+    image: "/images/flower.jpeg",
     title: "Alpha Blog",
     github: "https://github.com/keeks5456/alpha_blog",
     technologies: "Technologies used: Ruby, SCSS, HTML, JavaScript",
@@ -26,7 +26,7 @@ export const projectData = [
   {
     //first
     id: 4,
-    // image: IMG1,
+    image: "/images/flower.jpeg",
     title: "Recipes With Frank",
     github: "https://github.com/alphaworks-react-team/RecipesWithFrank",
     technologies:
@@ -35,7 +35,7 @@ export const projectData = [
   {
     //first
     id: 5,
-    // image: IMG1,
+    image: "/images/flower.jpeg",
     title: "Interactive Rating App",
     github: "https://github.com/keeks5456/Interactive-rating-app",
     technologies:
