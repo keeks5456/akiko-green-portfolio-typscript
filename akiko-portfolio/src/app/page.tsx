@@ -1,5 +1,5 @@
 import ProfilePic from "./profile_pic/ProfilePic";
-
+import ContactButton from "./contacts/ContactButton";
 function Home() {
   return (
     <>
@@ -15,6 +15,7 @@ function Home() {
             Seasoned Full stack developer seeking opportunities to enhance her
             skills for Junior developer and aspiring Technical Writer roles.
           </p>
+          <ContactButton />
         </div>
         <div className="container flex justify-end static ">
           <ProfilePic />

@@ -31,10 +31,6 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
 
             <ul className="hidden md:flex gap-x-5 text-[white] text-3xl z-50 absolute">
               <li>
-                {/* put in a hover later */}
-                <p className="space-x-2">Akiko</p>
-              </li>
-              <li>
                 <Link href="/">
                   <p>Home</p>
                 </Link>
