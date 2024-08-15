@@ -37,12 +37,12 @@ const config: Config = {
     },
     extend: {
       backgroundColor: {
-        'background-color': 'black', // Replace #yourColorCode with your desired color
+        'background-color':'#1B3358', // Replace #yourColorCode with your desired color
       },
       colors: {
       //  'background': 'rgba(236,220,171,1)', // your desired color
       'background': '#F5F5F5',
-       'text': 'black', // your desired color
+       'text': 'white', // your desired color
      },
      boxShadow: {
        lightGold: '12px 7px 0px 3px rgba(236,220,171,1)',

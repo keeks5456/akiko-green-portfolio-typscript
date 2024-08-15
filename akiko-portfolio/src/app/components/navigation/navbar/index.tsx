@@ -8,7 +8,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
     <>
       <div className="sticky top-0 z-10 w-full h-20 nav-banner">
         <div className="container h-full px-2 mx-auto">
-          <div className="flex items-center justify-left h-full">
+          <div className="flex items-center justify-end h-full">
             {/* <Logo /> */}
             <button
               type="button"
@@ -28,9 +28,11 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
               </svg>
             </button>
             {/* logo ends */}
-            <ul className="hidden md:flex gap-x-20 text-[white] text-3xl z-50 absolute">
+
+            <ul className="hidden md:flex gap-x-5 text-[white] text-3xl z-50 absolute">
               <li>
-                <p>Akiko</p>
+                {/* put in a hover later */}
+                <p className="space-x-2">Akiko</p>
               </li>
               <li>
                 <Link href="/">
