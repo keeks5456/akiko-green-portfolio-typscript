@@ -1,5 +1,6 @@
 import ProfilePic from "./profile_pic/ProfilePic";
 import ContactButton from "./contacts/ContactButton";
+import { useState } from "react";
 function Home() {
   return (
     <>
